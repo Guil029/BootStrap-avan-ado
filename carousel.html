@@ -11,15 +11,24 @@
     <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div data-bs-interval="2500" class="carousel-item active">
-                <img src="./img/fruits-1534494_1280.jpg" alt="Peras"/>
+                <img class="d-block w-100" src="./img/fruits-1534494_1280.jpg"/>
+                <div class="carousel-caption">
+                    <h2>Peras</h2>
+                </div>
             </div>
 
             <div data-bs-interval="2500" class="carousel-item">
-                <img src="./img/oranges-1995056_1280.jpg" alt="laranjas" />
+                <img src="./img/oranges-1995056_1280.jpg" />
+                <div class="carousel-caption">
+                    <h2>Laranjas</h2>
+                </div>
             </div>
 
             <div data-bs-interval="2500" class="carousel-item">
-                <img src="./img/strawberries-8177601_1280.jpg" alt="Morangos" />
+                <img src="./img/strawberries-8177601_1280.jpg"/>
+                <div class="carousel-caption">
+                    <h2>Morangos</h2>
+                </div>
             </div>
         </div>
 
@@ -30,6 +39,13 @@
         <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
             <span class="carousel-control-next-icon"></span>
         </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+
+        </div>
     </div>
 
 
